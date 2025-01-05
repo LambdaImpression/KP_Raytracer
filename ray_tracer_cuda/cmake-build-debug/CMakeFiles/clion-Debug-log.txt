@@ -1,0 +1,13 @@
+"C:\Program Files\JetBrains\CLion 2024.3.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild" "-DCMAKE_C_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe" -G "NMake Makefiles" -S C:\Users\1991u\Videos\ray_tracer_cuda -B C:\Users\1991u\Videos\ray_tracer_cuda\cmake-build-debug
+CMake Error at CMakeLists.txt:2 (project):
+  Running
+
+   'C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild' '-?'
+
+  failed with:
+
+   no such file or directory
+
+
+CMake Error: CMAKE_CUDA_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!

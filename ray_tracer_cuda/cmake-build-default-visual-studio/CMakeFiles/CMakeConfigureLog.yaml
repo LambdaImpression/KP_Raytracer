@@ -1,0 +1,522 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCUDACompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      MSBuild-Version 17.11.2+c078802d4 f├╝r .NET Framework
+      Der Buildvorgang wurde am 02.01.2025 14:47:14 gestartet.
+      
+      Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" auf Knoten "1" (Standardziele).
+      PrepareForBuild:
+        Das Verzeichnis "Debug\\" wird erstellt.
+        Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+        Das Verzeichnis "Debug\\CompilerIdCUDA.tlog\\" wird erstellt.
+      InitializeBuildStatus:
+        "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".
+      AddCudaCompileDeps:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=6 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I. /FIcuda_runtime.h /c C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      Das Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) erstellt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) auf Knoten "1", CudaBuildCore Ziel(e).
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        Das Verzeichnis "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug" wird erstellt.
+        cmd.exe /C "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmp815f9eca3c3e4c7da0a229e12b7faa95.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -allow-unsupported-compiler -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -allow-unsupported-compiler -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/..
+        #$ CICC_PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../nvvm/bin
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Ninja;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.2\\;C:\\Program Files\\Go\\bin;C:\\Users\\1991u\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\bin;;C:\\Users\\1991u\\AppData\\Roaming\\npm;C:\\Program Files\\JetBrains\\PyCharm 2023.3.3\\bin;;C:\\Users\\1991u\\go\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community;C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\ninja\\win\\x64;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=85 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe -D__NV_NO_HOST_COMPILER_CHECK=1 @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res" > "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res
+        #$ cudafe++ --ms_c++14 --microsoft_version=1941 --msvc_target_version=1941 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=85 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        #$ cl.exe -D__NV_NO_HOST_COMPILER_CHECK=1 @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res" > "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-9_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res
+        #$ ""%CICC_PATH%\\cicc" --ms_c++14 --microsoft_version=1941 --msvc_target_version=1941 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx""
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-11_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"   -Zi "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]
+        #$ cl.exe @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res" -Fo"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res
+      Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" ist abgeschlossen (CudaBuildCore Ziel(e)).
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"
+           Bibliothek ".\\CompilerIdCUDA.lib" und Objekt ".\\CompilerIdCUDA.exp" werden erstellt.
+      LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        Die Datei "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" wird gel├Âscht.
+        Aktualisieren des Timestamps von "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".
+      Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" ist abgeschlossen (Standardziele).
+      
+      Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
+      
+      "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (Standardziel) (1) ->
+      (Link Ziel) -> 
+        LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 Warnung(en)
+          0 Fehler
+      
+      Verstrichene Zeit 00:00:03.22
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:128 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCUDACompiler.cmake:242 (cmake_nvcc_parse_implicit_info)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Ninja;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.2\\;C:\\Program Files\\Go\\bin;C:\\Users\\1991u\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\bin;;C:\\Users\\1991u\\AppData\\Roaming\\npm;C:\\Program Files\\JetBrains\\PyCharm 2023.3.3\\bin;;C:\\Users\\1991u\\go\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community;C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\ninja\\win\\x64;]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"  ]
+        considering line: [MSBuild-Version 17.11.2+c078802d4 f├╝r .NET Framework]
+        considering line: [Der Buildvorgang wurde am 02.01.2025 14:47:14 gestartet.]
+        considering line: [Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" auf Knoten "1" (Standardziele).]
+        considering line: [PrepareForBuild:]
+        considering line: [  Das Verzeichnis "Debug\\" wird erstellt.]
+        considering line: [  Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.]
+        considering line: [  Das Verzeichnis "Debug\\CompilerIdCUDA.tlog\\" wird erstellt.]
+        considering line: [InitializeBuildStatus:]
+        considering line: [  "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.]
+        considering line: [  Aktualisieren des Timestamps von "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".]
+        considering line: [AddCudaCompileDeps:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=6 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I. /FIcuda_runtime.h /c C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu ]
+        considering line: [Das Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) erstellt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) auf Knoten "1", CudaBuildCore Ziel(e).]
+        considering line: [CudaBuildCore:]
+        considering line: [  Compiling CUDA source file CMakeCUDACompilerId.cu...]
+        considering line: [  Das Verzeichnis "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug" wird erstellt.]
+        considering line: [  cmd.exe /C "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmp815f9eca3c3e4c7da0a229e12b7faa95.cmd"]
+        considering line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -allow-unsupported-compiler -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"]
+        considering line: [  ]
+        considering line: [  C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -allow-unsupported-compiler -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        considering line: [                                    CMakeCUDACompilerId.cu]
+        considering line: [  #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=85 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]]
+        considering line: [  #$ cl.exe -D__NV_NO_HOST_COMPILER_CHECK=1 @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res" > "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res]
+        considering line: [  #$ cudafe++ --ms_c++14 --microsoft_version=1941 --msvc_target_version=1941 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=85 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]]
+        considering line: [  #$ cl.exe -D__NV_NO_HOST_COMPILER_CHECK=1 @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res" > "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-9_CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res]
+        considering line: [  #$ ""%CICC_PATH%\\cicc" --ms_c++14 --microsoft_version=1941 --msvc_target_version=1941 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx""]
+        considering line: [  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-11_CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [  #$ fatbinary -64 --ident="C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [  #$ erase C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin]
+        considering line: [  #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"   -Zi "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]]
+        considering line: [  #$ cl.exe @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res" -Fo"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" ]
+        considering line: [  tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [  #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res]
+        considering line: [Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" ist abgeschlossen (CudaBuildCore Ziel(e)).]
+        considering line: [Link:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          extracted link line: [link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+        considering line: [     Bibliothek ".\\CompilerIdCUDA.lib" und Objekt ".\\CompilerIdCUDA.exp" werden erstellt.]
+        considering line: [LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken]
+        considering line: [ /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [  CompilerIdCUDA.vcxproj -> C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.exe]
+        considering line: [PostBuildEvent:]
+        considering line: [  echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe]
+        considering line: [  :VCEnd]
+        considering line: [  CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe]
+        considering line: [FinalizeBuildStatus:]
+        considering line: [  Die Datei "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" wird gel├Âscht.]
+        considering line: [  Aktualisieren des Timestamps von "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".]
+        considering line: [Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" ist abgeschlossen (Standardziele).]
+        considering line: [Der Buildvorgang wurde erfolgreich ausgef├╝hrt.]
+        considering line: ["C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (Standardziel) (1) ->]
+        considering line: [(Link Ziel) -> ]
+        considering line: [  LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken]
+        considering line: [ /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [    1 Warnung(en)]
+        considering line: [    0 Fehler]
+        considering line: [Verstrichene Zeit 00:00:03.22]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          arg [cuda-fake-ld] ==> ignore
+          arg [link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:.\\CompilerIdCUDA.exe] ==> ignore
+          arg [/INCREMENTAL:NO] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/PDB:.\\CompilerIdCUDA.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:.\\CompilerIdCUDA.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj] ==> ignore
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit libs: [cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:146 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCUDACompiler.cmake:242 (cmake_nvcc_parse_implicit_info)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'PATH=' string: [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Ninja;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2024.3.2\\;C:\\Program Files\\Go\\bin;C:\\Users\\1991u\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.2\\bin;;C:\\Users\\1991u\\AppData\\Roaming\\npm;C:\\Program Files\\JetBrains\\PyCharm 2023.3.3\\bin;;C:\\Users\\1991u\\go\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community;C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\ninja\\win\\x64;]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"  ]
+        considering line: [MSBuild-Version 17.11.2+c078802d4 f├╝r .NET Framework]
+        considering line: [Der Buildvorgang wurde am 02.01.2025 14:47:14 gestartet.]
+        considering line: [Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" auf Knoten "1" (Standardziele).]
+        considering line: [PrepareForBuild:]
+        considering line: [  Das Verzeichnis "Debug\\" wird erstellt.]
+        considering line: [  Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.]
+        considering line: [  Das Verzeichnis "Debug\\CompilerIdCUDA.tlog\\" wird erstellt.]
+        considering line: [InitializeBuildStatus:]
+        considering line: [  "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.]
+        considering line: [  Aktualisieren des Timestamps von "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild".]
+        considering line: [AddCudaCompileDeps:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=6 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I. /FIcuda_runtime.h /c C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu ]
+        considering line: [Das Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) erstellt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2) auf Knoten "1", CudaBuildCore Ziel(e).]
+        considering line: [CudaBuildCore:]
+        considering line: [  Compiling CUDA source file CMakeCUDACompilerId.cu...]
+        considering line: [  Das Verzeichnis "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug" wird erstellt.]
+        considering line: [  cmd.exe /C "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmp815f9eca3c3e4c7da0a229e12b7faa95.cmd"]
+        considering line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -allow-unsupported-compiler -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"]
+        considering line: [  ]
+        considering line: [  C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"  -G   --keep-dir CompilerIdCUDA\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static -v -allow-unsupported-compiler -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdDebug\\vc143.pdb" -o C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        considering line: [                                    CMakeCUDACompilerId.cu]
+        considering line: [  #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=85 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]]
+        considering line: [  #$ cl.exe -D__NV_NO_HOST_COMPILER_CHECK=1 @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res" > "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-8.res]
+        considering line: [  #$ cudafe++ --ms_c++14 --microsoft_version=1941 --msvc_target_version=1941 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__ -D__CUDACC_DEBUG__  /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"    -D "_MBCS" -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=85 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" -Zi "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]]
+        considering line: [  #$ cl.exe -D__NV_NO_HOST_COMPILER_CHECK=1 @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res" > "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-9_CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-10.res]
+        considering line: [  #$ ""%CICC_PATH%\\cicc" --ms_c++14 --microsoft_version=1941 --msvc_target_version=1941 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --module_id_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-9_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx""]
+        considering line: [  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-11_CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [  #$ fatbinary -64 --ident="C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-11_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [  #$ erase C:/Users/1991u/AppData/Local/Temp/tmpxft_0000b1e8_00000000-4_CMakeCUDACompilerId.fatbin]
+        considering line: [  #$ resource file C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc /EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd /FdDebug\\vc143.pdb -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" "-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin/../include"   -Zi "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" ]]
+        considering line: [  #$ cl.exe @"C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res" -Fo"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/3.30.5/CompilerIdCUDA/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" ]
+        considering line: [  tmpxft_0000b1e8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [  #$ erase C:\\Users\\1991u\\AppData\\Local\\Temp/tmpxft_0000b1e8_00000000-12.res]
+        considering line: [Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" ist abgeschlossen (CudaBuildCore Ziel(e)).]
+        considering line: [Link:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          extracted link line: [link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+        considering line: [     Bibliothek ".\\CompilerIdCUDA.lib" und Objekt ".\\CompilerIdCUDA.exp" werden erstellt.]
+        considering line: [LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken]
+        considering line: [ /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [  CompilerIdCUDA.vcxproj -> C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.exe]
+        considering line: [PostBuildEvent:]
+        considering line: [  echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe]
+        considering line: [  :VCEnd]
+        considering line: [  CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe]
+        considering line: [FinalizeBuildStatus:]
+        considering line: [  Die Datei "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild" wird gel├Âscht.]
+        considering line: [  Aktualisieren des Timestamps von "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate".]
+        considering line: [Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" ist abgeschlossen (Standardziele).]
+        considering line: [Der Buildvorgang wurde erfolgreich ausgef├╝hrt.]
+        considering line: ["C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (Standardziel) (1) ->]
+        considering line: [(Link Ziel) -> ]
+        considering line: [  LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken]
+        considering line: [ /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [    1 Warnung(en)]
+        considering line: [    0 Fehler]
+        considering line: [Verstrichene Zeit 00:00:03.22]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          arg [cuda-fake-ld] ==> ignore
+          arg [link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:.\\CompilerIdCUDA.exe] ==> ignore
+          arg [/INCREMENTAL:NO] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/PDB:.\\CompilerIdCUDA.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:.\\CompilerIdCUDA.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\3.30.5\\CompilerIdCUDA\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj] ==> ignore
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit libs: [cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92"
+      binary: "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64310.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild-Version 17.11.2+c078802d4 f├╝r .NET Framework
+        Der Buildvorgang wurde am 02.01.2025 14:47:18 gestartet.
+        
+        Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" auf Knoten "1" (Standardziele).
+        PrepareForBuild:
+          Das Verzeichnis "cmTC_64310.dir\\Debug\\" wird erstellt.
+          Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
+          Das Verzeichnis "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\" wird erstellt.
+        InitializeBuildStatus:
+          "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\unsuccessfulbuild".
+        AddCudaCompileDeps:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=6 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu" 
+        Das Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (1) erstellt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (1:2) auf Knoten "1", CudaBuildCore Ziel(e).
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmp0ba49953020a468293740725dc198d02.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"     --keep-dir cmTC_64310\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_64310.dir\\Debug\\vc143.pdb" -o cmTC_64310.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"     --keep-dir cmTC_64310\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_64310.dir\\Debug\\vc143.pdb" -o cmTC_64310.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          tmpxft_00005e18_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp
+        C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: "return": Verk├╝rzung von "int" in "bool" [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+        Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" ist abgeschlossen (CudaBuildCore Ziel(e)).
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\Debug\\cmTC_64310.exe" /INCREMENTAL /ILK:"cmTC_64310.dir\\Debug\\cmTC_64310.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.lib" /MACHINE:X64  -v cmTC_64310.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: Nicht erkannte Option /v; wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+             Bibliothek "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.lib" und Objekt "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.exp" werden erstellt.
+        LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          cmTC_64310.vcxproj -> C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\Debug\\cmTC_64310.exe
+        FinalizeBuildStatus:
+          Die Datei "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\cmTC_64310.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" ist abgeschlossen (Standardziele).
+        
+        Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
+        
+        "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (CudaBuildCore Ziel) (1:2) ->
+        (CudaBuildCore Ziel) -> 
+          cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: "return": Verk├╝rzung von "int" in "bool" [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+        
+        
+        "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (Standardziel) (1) ->
+        (Link Ziel) -> 
+          LINK : warning LNK4044: Nicht erkannte Option /v; wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+          LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]
+        
+            6 Warnung(en)
+            0 Fehler
+        
+        Verstrichene Zeit 00:00:02.28
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64310.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n]
+        ignore line: [MSBuild-Version 17.11.2+c078802d4 f├╝r .NET Framework]
+        ignore line: [Der Buildvorgang wurde am 02.01.2025 14:47:18 gestartet.]
+        ignore line: []
+        ignore line: [Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" auf Knoten "1" (Standardziele).]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  Das Verzeichnis "cmTC_64310.dir\\Debug\\" wird erstellt.]
+        ignore line: [  Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.]
+        ignore line: [  Das Verzeichnis "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\Debug\\" wird erstellt.]
+        ignore line: [  Das Verzeichnis "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\" wird erstellt.]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\unsuccessfulbuild" wird erstellt  da "AlwaysCreate" angegeben wurde.]
+        ignore line: [  Aktualisieren des Timestamps von "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\unsuccessfulbuild".]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=12 /D__CUDACC_VER_MINOR__=6 /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [Das Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (1) erstellt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (1:2) auf Knoten "1"  CudaBuildCore Ziel(e).]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\1991u\\AppData\\Local\\Temp\\tmp0ba49953020a468293740725dc198d02.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"     --keep-dir cmTC_64310\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_64310.dir\\Debug\\vc143.pdb" -o cmTC_64310.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\include"     --keep-dir cmTC_64310\\x64\\Debug  -maxrregcount=0   --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdcmTC_64310.dir\\Debug\\vc143.pdb" -o cmTC_64310.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  tmpxft_00005e18_00000000-7_CMakeCUDACompilerABI.cudafe1.cpp]
+        ignore line: [C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: "return": Verk├╝rzung von "int" in "bool" [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" ist abgeschlossen (CudaBuildCore Ziel(e)).]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\Debug\\cmTC_64310.exe" /INCREMENTAL /ILK:"cmTC_64310.dir\\Debug\\cmTC_64310.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.lib" /MACHINE:X64  -v cmTC_64310.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: Nicht erkannte Option /v]
+        ignore line: [ wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [     Bibliothek "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.lib" und Objekt "C:/Users/1991u/Desktop/files/KP_Ray_tracer/KP_Ray_tracer/ray_tracer_cuda/cmake-build-default-visual-studio/CMakeFiles/CMakeScratch/TryCompile-hdeu92/Debug/cmTC_64310.exp" werden erstellt.]
+        ignore line: [LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken]
+        ignore line: [ /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  cmTC_64310.vcxproj -> C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\Debug\\cmTC_64310.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  Die Datei "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\unsuccessfulbuild" wird gel├Âscht.]
+        ignore line: [  Aktualisieren des Timestamps von "cmTC_64310.dir\\Debug\\cmTC_64310.tlog\\cmTC_64310.lastbuildstate".]
+        ignore line: [Die Erstellung von Projekt "C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" ist abgeschlossen (Standardziele).]
+        ignore line: []
+        ignore line: [Der Buildvorgang wurde erfolgreich ausgef├╝hrt.]
+        ignore line: []
+        ignore line: ["C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (Standardziel) (1) ->]
+        ignore line: ["C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (CudaBuildCore Ziel) (1:2) ->]
+        ignore line: [(CudaBuildCore Ziel) -> ]
+        ignore line: [  cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  cl : Befehlszeile warning D9002: Unbekannte Option "-v" wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  C:\\Program Files\\JetBrains\\CLion 2024.3.1.1\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: "return": Verk├╝rzung von "int" in "bool" [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: ["C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj" (Standardziel) (1) ->]
+        ignore line: [(Link Ziel) -> ]
+        ignore line: [  LINK : warning LNK4044: Nicht erkannte Option /v]
+        ignore line: [ wird ignoriert. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: [  LINK : warning LNK4098: Standardbibliothek "LIBCMT" steht in Konflikt mit anderen Bibliotheken]
+        ignore line: [ /NODEFAULTLIB:Bibliothek verwenden. [C:\\Users\\1991u\\Desktop\\files\\KP_Ray_tracer\\KP_Ray_tracer\\ray_tracer_cuda\\cmake-build-default-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-hdeu92\\cmTC_64310.vcxproj]]
+        ignore line: []
+        ignore line: [    6 Warnung(en)]
+        ignore line: [    0 Fehler]
+        ignore line: []
+        ignore line: [Verstrichene Zeit 00:00:02.28]
+        ignore line: []
+        ignore line: []
+        linker tool for 'CUDA': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.3.1.1/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CUDA compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
