@@ -11,7 +11,7 @@ func WritePPMImage(out *os.File, frameBuffer []calc.Vec3, width int, height int,
 	if _, err := fmt.Fprintf(out, "P3\n%d %d\n255\n", width, height); err != nil {
 		return err
 	}
-	
+
 	for row := height - 1; row >= 0; row-- {
 		for col := 0; col < width; col++ {
 			pixelIndex := row*width + col

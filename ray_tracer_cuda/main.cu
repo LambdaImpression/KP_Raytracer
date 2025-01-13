@@ -53,12 +53,12 @@ __host__ void load_spheres_from_json(const std::string& filename, std::vector<sp
 }
 
 // Adjust value to the nearest perfect square
-int adjustToNearestSquare(int value) {
+__host__ int adjustToNearestSquare(int value) {
     return static_cast<int>(std::sqrt(value));
 }
 
 // Helper function to add an extension if missing
-std::string ensureFileExtension(const std::string& filepath, const std::string& extension) {
+__host__ std::string ensureFileExtension(const std::string& filepath, const std::string& extension) {
     // Check if the filepath ends with the specified extension
     if (filepath.size() >= extension.size() &&
         filepath.compare(filepath.size() - extension.size(), extension.size(), extension) == 0) {
@@ -115,8 +115,10 @@ int main(int argc, char* argv[]) {
     // Clamp user-input to a valid range
     width = static_cast<int>(calc::clamp(static_cast<float>(width), 128, 3840));
     height = static_cast<int>(calc::clamp(static_cast<float>(height), 128, 2160));
-    num_threads = static_cast<int>(calc::clamp(static_cast<float>(num_threads), 1, 1024));
-    num_blocks = static_cast<int>(calc::clamp(static_cast<float>(num_blocks), 1, 65535));
+    num_threads = static_cast<int>(calc::clamp(static_cast<float>(num_threads),
+        std::ceil(std::max(static_cast<float>(width) / static_cast<float>(num_blocks),
+            static_cast<float>(height) / static_cast<float>(num_blocks))), 1024));
+    num_blocks = static_cast<int>(calc::clamp(static_cast<float>(num_blocks),1 , 65535));
 
     // Adjust thread and block values to nearest square
     num_threads = adjustToNearestSquare(num_threads);

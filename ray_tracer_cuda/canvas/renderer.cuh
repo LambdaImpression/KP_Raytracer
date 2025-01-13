@@ -11,6 +11,7 @@
 
 namespace canvas {
 
+
     __device__ color ray_color(
         const emit::ray& r,
         intersectable **world,
@@ -157,6 +158,48 @@ namespace canvas {
     	delete *world;
     	delete *camera;
     }
+
+    __global__ void render_2d_scene(
+    canvas::color *frame_buffer,
+    int width,
+    int height,
+    const sphere_config *spheres,
+    size_t num_spheres
+) {
+        int x = blockIdx.x * blockDim.x + threadIdx.x;
+        int y = blockIdx.y * blockDim.y + threadIdx.y;
+
+        if (x >= width || y >= height) return;
+
+        // Normalize pixel coordinates to [0, 1]
+        float u = float(x) / width;
+        float v = float(y) / height;
+
+        // Map pixel coordinates to a world-space range
+        float world_x = (u - 0.5f) * 20.0f; // Adjust scale as needed
+        float world_y = (v - 0.5f) * 20.0f;
+
+        canvas::color pixel_color(1.0f, 1.0f, 1.0f); // Default white background
+
+        for (size_t i = 0; i < num_spheres; ++i) {
+            const sphere_config &sphere = spheres[i];
+
+            // Check if the pixel is within the sphere's 2D projection
+            float dx = world_x - sphere.x;
+            float dy = world_y - sphere.y;
+            float distance_squared = dx * dx + dy * dy;
+
+            if (distance_squared <= sphere.radius * sphere.radius) {
+                // If inside the sphere, use its material color
+                pixel_color = canvas::color(sphere.color_r, sphere.color_g, sphere.color_b);
+                break; // Stop once the closest sphere is found
+            }
+        }
+
+        int pixel_index = y * width + x;
+        frame_buffer[pixel_index] = pixel_color;
+    }
+
 }
 
 #endif //RENDERER_CUH
